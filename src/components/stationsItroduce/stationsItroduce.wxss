@@ -1,0 +1,55 @@
+/* pages/stationsItroduce/stationsItroduce.wxss */
+.box{
+  background-color: beige;
+  font-size: 32rpx;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  min-height: 100%;
+  opacity: 0.9;
+  margin-bottom: 5rpx;
+  border-radius: 5rpx;
+  height: auto;
+  z-index: -1;
+
+}
+.right_arrow{
+  border: solid black;
+  border-width: 0 3rpx 3rpx 0;
+  padding: 3rpx;
+  top:150rpx;
+  position: absolute;
+  right: 5rpx;
+  margin-left: 66%;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.lin{
+  position: relative;
+  width: 100%;
+  background-color:silver;
+  height: 2rpx;
+}
+.line{
+  position: relative;
+  width: 100%;
+  background-color:silver;
+  height: 2rpx;
+}
+.detail{
+  padding: 32rpx;
+  position: relative;
+  display: -webkit-flex;
+  top:auto;
+  display: flex;
+  left: 590rpx;
+  align-items: center;
+  color: #646d96;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.join_button{
+  position: relative;
+  left:40%;
+  top:auto;
+  margin-top: 10rpx;
+  background-color: coral;
+}

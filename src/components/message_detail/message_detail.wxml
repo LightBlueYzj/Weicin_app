@@ -1,0 +1,16 @@
+<!--components/message_detail/message_detail.wxml-->
+<page_back_image class = "my_backimage"></page_back_image>
+<text bindtap="about" class="detail">详细信息</text>
+<view class ="left_arrow" bindtap="about"></view>
+<scroll-view scroll-y="true" style="position: absolute; height: 100%;top:150rpx;background-color: wheat;opacity: 0.9;border-radius: 5px;">
+  <view class = "title">{{Masg.title}}</view>
+  <view class = "second">
+    <view class = "releaseSector">发布部门：{{Masg.release_sector}}</view>
+    <view class = "releaseName">发布人：{{Masg.release_name}}</view>
+    <view class = "releaseTime">发布时间：{{Masg.release_time}}</view>
+  </view>
+  <view class = "cotennt">{{Masg.content}}</view>
+  <view class = "phone">联系方式：{{Masg.phone}}</view>
+  <view class = "attachment" bindtap="out">附件下载连接：{{Masg.attachment}}</view>
+</scroll-view>
+

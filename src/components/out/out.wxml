@@ -1,0 +1,2 @@
+<!--components/out/out.wxml-->
+<web-view src="{{My_url}}"></web-view>

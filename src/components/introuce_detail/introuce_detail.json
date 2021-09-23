@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "page_back_image":"../../components/page_back_image/page_back_image",
+    "functional_block":"../../components/functional_block/functional_block",
+    "notice":"../../components/notice/notice"
+  }
+}

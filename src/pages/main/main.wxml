@@ -1,0 +1,11 @@
+
+	<page_back_image class = "backimage"></page_back_image>
+<view>
+		<slideshow class = "slide"></slideshow>
+		<searchbar class = "search"></searchbar>
+		<scroll-view scroll-y="true" style="height: 1000rpx">
+			<view class="one_panle" wx:for="{{options}}" wx:key="*this">
+				<my-panel Msg = "{{item}}" class ="panel"></my-panel>
+			</view>
+		</scroll-view>
+</view>

@@ -1,0 +1,36 @@
+<!--pages/worker/worker.wxml-->
+<view>
+  <page_back_image class = "my_backimage"></page_back_image>
+  <text bindtap="about" class="detail">学生认证</text>
+  <view class ="left_arrow" bindtap="about"></view>
+  <view class="bakegrand"></view>
+  <view>
+    <view class="name">姓名:</view>
+    <input placeholder="请输入" bindinput="get_name" class="get_name"></input>
+    <view class="name">性别:</view>
+    <view class="container" bindtap="close">
+      <view class="select-wrap">
+        <select id="select" options="{{options}}" key="id" text="name" bind:change="get_sex"></select>
+      </view>
+    </view>
+    <view class="name">学号:</view>
+    <input placeholder="请输入" bindinput="getid" class="get_name"></input>
+    <view class="name">学院:</view>
+    <view class="container" bindtap="close">
+      <view class="select-wrap">
+        <select id="select" options="{{colloges}}" key="id" text="name" bind:change="get_collage"></select>
+      </view>
+    </view>
+    <view class="name">专业:</view>
+    <view class="container" bindtap="close">
+      <view class="select-wrap">
+        <select id="select" options="{{majors}}" key="id" text="name" bind:change="get_major"></select>
+      </view>
+    </view>
+    <button class = "submit" bindtap="submit" size="mini" type="default">提交认证</button>
+  </view>
+  <view wx:if="{{success}}">
+    <view style="position: relative; left: 280rpx; color: red;size: 50px;top: 350rpx;">请把信息补充完整！</view>
+  </view>
+
+</view>

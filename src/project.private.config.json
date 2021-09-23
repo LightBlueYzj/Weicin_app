@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/My_schedule/My_schedule",
+          "pathName": "pages/My_schedule/My_schedule",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

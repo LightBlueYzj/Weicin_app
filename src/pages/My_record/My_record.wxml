@@ -1,0 +1,9 @@
+<!--pages/My_record/My_record.wxml-->
+<page_back_image class = "my_backimage"></page_back_image>
+<view class ="left_arrow" bindtap="about"></view>
+<view class="page_title">值班记录</view>
+<view class="mesage_box" wx:for="{{recordList}}" wx:key = "*this">
+  <view class = "time">值班日期：{{item.time}}</view>
+  <view class="work" bindtap="detail">工作内容：{{item.work}}</view>
+  <view class="detail" bindtap="detail">详细信息</view>
+</view>

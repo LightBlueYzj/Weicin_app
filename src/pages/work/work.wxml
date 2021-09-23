@@ -1,0 +1,14 @@
+<!--pages/work/work.wxml-->
+<page_back_image class = "my_backimage"></page_back_image>
+<view class="page_title">勤工助学</view>
+<notice msgList ="{{notice}}" class ="notice"></notice>
+<view wx:if="{{user}}">
+  <functional_block class = "my_functionbox"></functional_block>
+</view>
+<view wx:if="{{!user}}">
+	<scroll-view scroll-y="true" style="height: 1200rpx;position: absolute;top: 160rpx; margin-top: 100rpx;">
+    <View wx:for="{{stations}}" wx:key="*this">
+      <introuduce Msg ="{{item}}" class="box"></introuduce>
+    </View>
+</scroll-view>
+</view>

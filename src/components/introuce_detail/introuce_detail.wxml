@@ -1,0 +1,11 @@
+<!--components/message_detail/message_detail.wxml-->
+<page_back_image class = "my_backimage"></page_back_image>
+<text bindtap="about" class="detail">详细介绍</text>
+<view class ="left_arrow" bindtap="about"></view>
+<view class = "massage">
+  <view class = "title">部门名称：{{Masg.name}}</view>
+  <view class = "second">
+    <view class = "releaseSector">部门介绍：{{Masg.introduce}}</view>
+  </view>
+</view>
+

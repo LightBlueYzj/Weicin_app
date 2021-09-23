@@ -1,0 +1,52 @@
+/* components/functional_block/functional_block.wxss */
+.back_box{
+  background-color: white;
+  position: relative;
+  width: 650rpx;
+  height: 500rpx;
+  opacity: 0.7;
+  border-radius: 5px;
+  left: 60rpx;
+}
+.first_func{
+  position: absolute;
+  border-radius: 5px;
+  top: 10rpx;
+  bottom: 0px;
+  left: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.second_func{
+  position: absolute;
+  border-radius: 5px;
+  top: 250rpx;
+  bottom: 0rpx;
+  left: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.third_func{
+  position:absolute;
+  border-radius: 5px;
+  top: 10rpx;
+  bottom: 0rpx;
+  left: 400rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.first_func_name{
+  position: absolute;
+  top: 160rpx;
+  left:40rpx
+}
+.second_func_name{
+  position: absolute;
+  top: 400rpx;
+  left:70rpx
+}
+.third_func_name{
+  position: absolute;
+  top: 160rpx;
+  left:430rpx;
+}

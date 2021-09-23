@@ -1,0 +1,10 @@
+<!--components/functional_block/functional_block.wxml-->
+<view class = "back_box">
+  <image class = "first_func" src="https://img1.baidu.com/it/u=194934473,3050470427&fm=26&fmt=auto&gp=0.jpg" bindtap="look_time"></image>
+  <view class = "first_func_name">查看值班表</view>
+  <image class = "second_func" src="https://img1.baidu.com/it/u=194934473,3050470427&fm=26&fmt=auto&gp=0.jpg" type="default" bindtap="openToast"></image>
+  <view class = "second_func_name">签到</view>
+  <image class = "third_func" src="https://img1.baidu.com/it/u=194934473,3050470427&fm=26&fmt=auto&gp=0.jpg" bindtap="my_time"></image>
+  <view class = "third_func_name">值班记录</view>
+
+</view>

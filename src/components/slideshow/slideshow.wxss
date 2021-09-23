@@ -1,0 +1,17 @@
+/* components/slideshow/slideshow.wxss */
+/* 轮播图设定 */
+swiper {
+  height: 400rpx;
+  width: 100%;
+}
+swiper-item {
+  height: 100%;
+  width: 100%;
+}
+.all{
+  display: flex;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+}

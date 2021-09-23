@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "page_back_image":"../../components/page_back_image/page_back_image",
+    "notice":"../../components/notice/notice"
+  }
+}

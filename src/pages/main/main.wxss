@@ -1,0 +1,19 @@
+.backimage{
+  position: absolute;
+  top: 0rpx;
+  bottom: 0rpx;
+  left: 0rpx;
+  display: flex;
+  z-index: -1;
+  
+}
+
+.panel{
+  /* width: 90%; */
+  height: auto;
+  /* width: 100%; */
+}
+.background{
+  color: #eeeeee;
+  height: 40rpx;
+}

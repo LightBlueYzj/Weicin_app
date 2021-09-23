@@ -1,0 +1,224 @@
+/* pages/worker/worker.wxss */
+.my_backimage{
+  position: absolute;
+  top: 0rpx;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.detail{
+  position: absolute;
+  top:90rpx;
+  left:30rpx;
+}
+/* 用css画一个向右的箭头 */
+.left_arrow{
+  border: solid black;
+  top:105rpx;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  position: absolute;
+  left: 0rpx;
+  margin-left: 2%;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-230deg);
+}
+.bakegrand{
+  position: absolute;
+  top:180rpx;
+  left:60rpx;
+  width: 650rpx;
+  height: 1400rpx;
+  opacity: 0.9;
+  border-radius: 5px;
+  background-color:powderblue
+}
+.name{
+  position: relative;
+  overflow: hidden;
+  width: 80rpx;
+  color: black;
+  top:250rpx;
+  left:120rpx;
+  bottom: 0rpx;
+}
+.invitecode{
+  position: relative;
+  overflow: hidden;
+  width: 200rpx;
+  color: black;
+  top:250rpx;
+  left:70rpx;
+  bottom: 0rpx;
+}
+.get_code{
+  position: relative;
+  line-height: 60rpx;
+  border-bottom: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  border-right: 1rpx solid #eee;
+  bottom: 0px;
+  overflow: hidden;
+  width: 360rpx;
+  height: 60rpx;
+  top:200rpx;
+  left: 250rpx;
+}
+.get_name{
+  position: relative;
+  line-height: 60rpx;
+  border-bottom: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  border-right: 1rpx solid #eee;
+  bottom: 0rpx;
+  overflow: hidden;
+  width: 400rpx;
+  height: 50rpx;
+  top:200rpx;
+  left: 220rpx;
+}
+.submit{
+  top:300rpx;
+  left: 260rpx;
+  width: 200rpx;
+  height: 70rpx;
+  background-color: bisque;
+  position: relative;
+}
+.container{
+  position: relative;
+  top:200rpx;
+  left: 220rpx;
+  width: 400rpx;
+  height: 50rpx;
+}
+.select_box1{
+  border-radius: 5px;
+  background: #fff;
+  top:81rpx;
+  left: 10rpx;
+  z-index: 7;
+  position: relative;
+ }
+ .select_box2{
+  border-radius: 5px;
+  background: #fff;
+  top:81rpx;
+  left: 10rpx;
+  z-index: 6;
+  position: relative;
+ }
+ .select1{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+ }
+ .select2{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+ }
+ .select_text1{
+  font-size: 30rpx;
+  flex: 1;
+ }
+ .select_text2{
+  font-size: 30rpx;
+  flex: 1;
+ }
+.select_box{
+  border-radius: 5rpx;
+  background: #fff;
+  top:81rpx;
+  left: 10rpx;
+  position: relative;
+ }
+ .select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+ }
+ .select_text{
+  font-size: 30rpx;
+  flex: 1;
+ }
+ .option_box1{
+   z-index: 7;
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+ }
+ .option1{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+ }
+ .option_box2{
+  z-index: 7;
+ position: absolute;
+ top: 70rpx;
+ width: 100%;
+ border:1px solid #efefef;
+ box-sizing: border-box;
+ height: 0;
+ overflow-y: auto;
+ border-top: 0;
+ background: #fff;
+ transition: height 0.3s;
+}
+.option2{
+ display: block;
+ line-height: 40rpx;
+ font-size: 30rpx;
+ border-bottom: 1px solid #efefef;
+ padding: 10rpx;
+}
+ .option_box{
+  z-index: 7;
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+ }
+ .option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+ }

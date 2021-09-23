@@ -1,0 +1,9 @@
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="5000">
+  <my-line></my-line>
+    <block wx:for="{{get_notice}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper_item">{{item.title}}</view>
+        </swiper-item>
+    </block>
+    <my-line></my-line>
+  </swiper>

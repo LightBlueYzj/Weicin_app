@@ -1,0 +1,11 @@
+<!--components/slideshow/slideshow.wxml-->
+	<!--页面轮播图-->
+<view class="all">
+	<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+		<block wx:for="{{imgUrls}}" wx:key = "this">	<!--循环播放轮播图-->
+			<swiper-item>
+				<image src="{{item}}" class="slide-image" />
+			</swiper-item>
+		</block>
+	</swiper>
+</view>

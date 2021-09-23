@@ -1,0 +1,10 @@
+<!--pages/stationsItroduce/stationsItroduce.wxml-->
+<view class = "box">
+  <view class="station_name">部门名称:{{get_paper.name}}</view>
+  <view class="lin"> </view>
+  <view class="station_information">部门信息:{{get_paper.introduce}}</view>
+  <view class="right_arrow" bindtap="to_detail"></view>
+  <view class="detail" bindtap="to_detail">详细信息</view>
+  <view class="line"> </view>
+  <button bindtap="join" size="mini" class="join_button">加入我们</button>
+</view>

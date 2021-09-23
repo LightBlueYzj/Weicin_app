@@ -1,0 +1,28 @@
+<!--pages/AboutUs/AboutUs.wxml-->
+<text bindtap="about" class="detail">资助星</text>
+<view class ="left_arrow" bindtap="about"></view>
+<view class="page">
+<view class="page__bd">
+  <view class="weui-article">
+    <view class="weui-article__section">
+      <view class="weui-article__title">我们正在完善</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">我们正在完善</view>
+        <view class="weui-article__p">
+          我们是上海应用技术大学计算机学院大三在读学生，这是我们的第一个小程序
+        </view>
+        <view class="weui-article__p">
+          <image class="weui-article__img" src="https://img1.baidu.com/it/u=194934473,3050470427&fm=26&fmt=auto&gp=0.jpg" mode="aspectFit" style="height: 180px" />
+          <image class="weui-article__img" src="https://img1.baidu.com/it/u=194934473,3050470427&fm=26&fmt=auto&gp=0.jpg" mode="aspectFit" style="height: 180px" />
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">嘀嘀嘀嘀</view>
+        <view class="weui-article__p">
+          我们是上海应用技术大学计算机学院大三在读学生，这是我们的第一个小程序
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

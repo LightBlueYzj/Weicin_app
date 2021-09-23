@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "my-panel":"../../components/panel/panel",
+    "my-notice":"../../components/notice/notice",
+    "page_back_image":"../../components/page_back_image/page_back_image",
+    "slideshow":"../../components/slideshow/slideshow",
+    "searchbar":"../../components/searchbar/searchbar"
+  
+  }
+}

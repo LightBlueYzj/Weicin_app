@@ -1,0 +1,34 @@
+<!--pages/MyInformation/MyInformation.wxml-->
+<view wx:if="{{!users}}">
+    <view class="weui-msg">
+      <view class="weui-msg__icon-area">
+        <icon type="warn" size="93"></icon>
+      </view>
+      <view class="weui-msg__text-area">
+        <view class="weui-msg__title">未认证！</view>
+        <view class="weui-msg__desc">您还未进行身份认证，请先完成认证!</view>
+      </view>
+      <view class="weui-msg__opr-area">
+        <view class="weui-btn-area">
+          <button class="weui-btn" type="primary" bindtap="worker">工作部门认证</button>
+          <button class="weui-btn" type="primary" bindtap="student">学生认证</button>
+          <button class="weui-btn" type="default" bindtap="back">回到我的主页</button>
+        </view>
+      </view>
+    </view>
+</view>
+<view wx:if="{{users}}">
+  <page_back_image class = "my_backimage"></page_back_image>
+  <text bindtap="back" class="detail">我的个人信息</text>
+  <view class ="left_arrow" bindtap="back"></view>
+  <view class="bakegrand">
+    <view class = "nameb">姓名：</view>
+    <view class="name">{{users.name}}</view>
+    <view class = "nameb">学号：</view>
+    <view class="name">{{users.student_id}}</view>
+    <view class = "nameb">专业：</view>
+    <view class="name">{{users.major}}</view>
+    <view class = "nameb">部门：</view>
+    <view class="name">{{users.get_station}}</view>
+  </view>
+</view>

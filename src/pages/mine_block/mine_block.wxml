@@ -1,0 +1,52 @@
+<page_back_image class = "my_backimage"></page_back_image>
+<view class = "all_back">
+  <view wx:if="{{!userIfor}}">
+    <button bindtap="login" class="loginbutton" type="primary">授权登录</button>
+    <image src ="../../images/mine.png" class="unlogin_file"></image>
+  </view>
+  <view wx:if="{{userIfor}}" class="root">
+    <image src ="{{userIfor.avatarUrl}}" class="userprofile"></image>
+    <text class="nickname">{{userIfor.nickName}}</text>
+    <text bindtap="loginOut" class="loginout">退出登录</text>
+  </view>
+</view>
+<view wx:if="{{userIfor}}">
+  <view wx:if="{{!workerAttestation}}">
+      <view class="iformationback" bindtap="my_information">
+        <text >我的信息</text>
+        <view class ="right_arrow"></view>
+      </view>
+      <view class="iformationback"  bindtap="to_work">
+        <text bindtap="to_work">工作部门认证</text>
+        <view class ="right_arrow"></view>
+      </view>
+      <view class="iformationback" bindtap="student">
+        <text bindtap="to_work">学生用户认证</text>
+        <view class ="right_arrow"></view>
+      </view>
+        <view class="iformationback" bindtap="about">
+        <text bindtap="about">关于我们</text>
+        <view class ="right_arrow"></view>
+      </view>
+      <view>
+        <view class="iformationback">
+        <button open-type="feedback" class = "button">反馈建议</button>
+        <view class ="right_arrow"></view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{workerAttestation}}">
+      <view class="iformationback">
+        <text bindtap="my_information">我的信息</text>
+        <view class ="right_arrow" bindtap="my_information"></view>
+      </view>
+    <view class="iformationback">
+      <text bindtap="about">关于我们</text>
+      <view class ="right_arrow" bindtap="about"></view>
+    </view>
+    <view class="iformationback">
+      <button open-type="feedback" class = "button">反馈建议</button>
+      <view class ="right_arrow" bindtap="feedback"></view>
+    </view>
+  </view>
+</view>

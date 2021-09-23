@@ -1,0 +1,20 @@
+<view class="my-panel">
+  <view class="my-panel-source">{{get_paper.title}}
+  </view>
+  <my-line></my-line>
+  <view class="my-panel-content">
+    <view class="my-panel-content-box">
+      <view class="my-panel-content-box-title">{{get_paper.release_sector}}</view>
+    <view class="my-panel-content-box-info">
+      <view class="my-panel-content-box-info-meta">{{get_paper.release_name}} </view>
+      <view class="my-panel-content-box-info-meta">{{get_paper.release_time}} </view>
+      <view class="my-panel-content-box-info-meta my-panel-content-box-info-meta-extra">{{get_paper.phone}} </view>
+    </view>
+    </view>
+  </view>
+  <my-line></my-line>
+  <view class="my-panel-more" >
+    <view class="my-panel-more-left" bindtap="get_MsgDetail">查看详细</view>
+    <view class="my-panel-more-right" bindtap="get_MsgDetail"></view>
+  </view>
+</view>

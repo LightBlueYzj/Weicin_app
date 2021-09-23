@@ -1,0 +1,26 @@
+page{
+  background-color: #FFFFFF;
+  }
+  .detail{
+    position: absolute;
+    top:30px;
+    left:20px;
+  }
+  .left_arrow{
+    border: solid black;
+    top:38px;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    position: absolute;
+    left: 10 px;
+    margin-left: 2%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-230deg);
+  }
+  .page{
+    position: relative;
+    top:50px;
+  }
+  image{
+  margin: 4px 0;
+  }

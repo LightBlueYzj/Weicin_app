@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "components/out/out",
+    "components/introuce_detail/introuce_detail",
+    "pages/My_record/My_record",
+    "pages/My_schedule/My_schedule",
+    "pages/stationsItroduce/stationsItroduce",
+    "pages/main/main",
+    "pages/MyInformation/MyInformation",
+    "pages/AboutUs/AboutUs",
+    "pages/student/student",
+    "pages/msg_success/msg_success",
+    "pages/worker/worker",
+    "components/select_box/select_box",
+    "components/message_detail/message_detail",
+    "components/panel/panel",
+    "pages/mine_block/mine_block",
+    "pages/work/work",
+    "components/searchbar/searchbar",
+    "components/functional_block/functional_block",
+    "components/slideshow/slideshow",
+    "components/page_back_image/page_back_image"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "资助星",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle":"black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "#FFFFF",
+    "list": [
+      {
+        "selectedIconPath": "/images/index.png",
+        "iconPath": "/images/index.png",
+        "pagePath": "pages/main/main",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/images/work.png",
+        "iconPath": "/images/work.png",
+        "pagePath": "pages/work/work",
+        "text": "勤助"
+      },{
+        "selectedIconPath": "/images/min.png",
+        "iconPath": "/images/min.png",
+        "pagePath": "pages/mine_block/mine_block",
+        "text": "我"
+      }
+    ]
+      
+  },
+  "useExtendedLib": {
+    "weui": true
+  }
+}
